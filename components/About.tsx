@@ -34,7 +34,7 @@ export default function About({}: Props) {
                 <span className='underline decoration-[#F7AB0A]/50'>little<span>{" "}background</span></span>
             </h4>
             <p>
-                I am a Full Stack Developer with a passion for building web applications. I am currently a student at Strathmore University pursuing a Bachelor's Degree in Computer Science. I am also a self-taught developer with a passion for learning new technologies and building applications. I am currently looking for an internship or a junior role in a company where I can learn and grow.
+                I am a Full Stack Developer with a passion for building web applications. I am currently a student at Strathmore University pursuing a Bachelor&apos;s Degree in Computer Science. I am also a self-taught developer with a passion for learning new technologies and building applications. I am currently looking for an internship or a junior role in a company where I can learn and grow.
             </p>
         </div>
     </motion.div>
