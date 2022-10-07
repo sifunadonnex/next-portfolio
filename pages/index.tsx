@@ -10,7 +10,7 @@ import Skills from '../components/Skills'
 
 const Home: NextPage = () => {
   return (
-    <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0'>
+    <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll overflow-x-hidden z-0'>
       <Head>
         <title>Sifuna`s Portfolio</title>
       </Head>
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
       <section id='projects' className='snap-start'>
         <Projects />
       </section>
-      <section id='contact' className='snap-start'>
+      <section id='contact' className='snap-start '>
         <Contact />
       </section>
     </div>

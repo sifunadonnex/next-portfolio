@@ -20,9 +20,9 @@ function Projects({}: Props) {
                         // transition={{duration: 1.2}}
                         // whileInView={{opacity: 1,y:0}}
                         // viewport={{once:true}}
-                    src="https://i.pinimg.com/564x/40/94/e8/4094e8e095102be3213c4606014a3638.jpg" alt="" />
+                    src="https://i.pinimg.com/564x/40/94/e8/4094e8e095102be3213c4606014a3638.jpg" alt="" className='w-80 mt-32' />
 
-                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                    <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
                         <h4 className='text-4xl font-semibold text-center'><span className='underline decoration-[#F7AB0A]/50'>Case Study {i+1} of {projects.length}</span>{" "}: UPS clone</h4>
                         <p className='text-lg text-center md:text-left'>
                             Netflix 2.0 app built with React, Redux, and Firebase.
